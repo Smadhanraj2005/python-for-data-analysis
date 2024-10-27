@@ -1,0 +1,14 @@
+class empolyee:
+    def __init__(self,id1,name,salary,dept):
+        self.id1=id1
+        self.name=name
+        self.__salary=salary
+        self._dept=dept
+    def display_1(self):
+        print(self.id1,"\t",self.name)
+        print("the salary details",self.__salary)
+        print("department of ",self._dept)
+emp1=empolyee(101,"bala",100000,"IT")
+emp1.display_1()
+
+        
